@@ -2,23 +2,43 @@
 
 This folder contains solutions for two common design patterns: the Singleton Pattern and the Factory Method Pattern.
 
-## Exercise 1: Implementing the Singleton Pattern
+## Design Patterns and Principles
+
+### Exercise 1: Implementing the Singleton Pattern
 
 This exercise demonstrates the Singleton design pattern using a `Logger` class. The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance.
 
-- `SingletonPatternExample/src/main/java/SingletonPatternExample/Logger.java`: Implements the Singleton `Logger` class.
-- `SingletonPatternExample/src/main/java/SingletonPatternExample/SingletonTest.java`: A test class to verify the Singleton implementation.
+- `Design Patterns and Principles/SingletonPatternExample/Logger.java`: Implements the Singleton `Logger` class.
+- `Design Patterns and Principles/SingletonPatternExample/SingletonTest.java`: A test class to verify the Singleton implementation.
 
-## Exercise 2: Implementing the Factory Method Pattern
+### Exercise 2: Implementing the Factory Method Pattern
 
 This exercise demonstrates the Factory Method design pattern for creating different types of documents. The Factory Method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/Document.java`: Interface for document types.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/WordDocument.java`: Concrete implementation of `Document`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/PdfDocument.java`: Concrete implementation of `Document`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/ExcelDocument.java`: Concrete implementation of `Document`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/DocumentFactory.java`: Abstract factory class.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/WordDocumentFactory.java`: Concrete factory for `WordDocument`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/PdfDocumentFactory.java`: Concrete factory for `PdfDocument`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/ExcelDocumentFactory.java`: Concrete factory for `ExcelDocument`.
-- `FactoryMethodPatternExample/src/main/java/FactoryMethodPatternExample/FactoryMethodTest.java`: A test class to demonstrate document creation using the factory method.
+- `Design Patterns and Principles/FactoryMethodPatternExample/Document.java`: Interface for document types.
+- `Design Patterns and Principles/FactoryMethodPatternExample/WordDocument.java`: Concrete implementation of `Document`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/PdfDocument.java`: Concrete implementation of `Document`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/ExcelDocument.java`: Concrete implementation of `Document`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/DocumentFactory.java`: Abstract factory class.
+- `Design Patterns and Principles/FactoryMethodPatternExample/WordDocumentFactory.java`: Concrete factory for `WordDocument`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/PdfDocumentFactory.java`: Concrete factory for `PdfDocument`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/ExcelDocumentFactory.java`: Concrete factory for `ExcelDocument`.
+- `Design Patterns and Principles/FactoryMethodPatternExample/FactoryMethodTest.java`: A test class to demonstrate document creation using the factory method.
+
+## Algorithms_Data Structures
+
+### Exercise 2: E-commerce Platform Search Function
+
+This exercise focuses on implementing and analyzing search algorithms for an e-commerce platform.
+
+- `Algorithms_Data Structures/ECommerceSearch/Product.java`: Defines the `Product` class with attributes for searching.
+- `Algorithms_Data Structures/ECommerceSearch/LinearSearch.java`: Implements the linear search algorithm.
+- `Algorithms_Data Structures/ECommerceSearch/BinarySearch.java`: Implements the binary search algorithm (requires a sorted array).
+- `Algorithms_Data Structures/ECommerceSearch/SearchTest.java`: A test class to demonstrate and compare linear and binary search.
+
+### Exercise 7: Financial Forecasting
+
+This exercise explores recursive algorithms for financial forecasting.
+
+- `Algorithms_Data Structures/FinancialForecasting/FinancialForecasting.java`: Implements a recursive algorithm to predict future values.
+- `Algorithms_Data Structures/FinancialForecasting/FinancialForecastingTest.java`: A test class to demonstrate the financial forecasting.
