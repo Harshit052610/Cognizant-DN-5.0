@@ -42,3 +42,23 @@ This exercise explores recursive algorithms for financial forecasting.
 
 - `Algorithms_Data Structures/FinancialForecasting/FinancialForecasting.java`: Implements a recursive algorithm to predict future values.
 - `Algorithms_Data Structures/FinancialForecasting/FinancialForecastingTest.java`: A test class to demonstrate the financial forecasting.
+
+## PLSQL_Exercises
+
+### Exercise 1: Control Structures
+
+This exercise demonstrates the use of control structures in PL/SQL for various banking scenarios.
+
+- `PLSQL_Exercises/PLSQL_Exercises.sql`: Contains PL/SQL blocks for:
+    - Applying a discount to loan interest rates for customers above 60.
+    - Promoting customers to VIP status based on their balance.
+    - Sending reminders for loans due within the next 30 days.
+
+### Exercise 3: Stored Procedures
+
+This exercise focuses on implementing stored procedures in PL/SQL for common banking operations.
+
+- `PLSQL_Exercises/PLSQL_Exercises.sql`: Contains stored procedures for:
+    - Processing monthly interest for savings accounts.
+    - Updating employee bonuses based on performance.
+    - Transferring funds between customer accounts with balance checks.
